@@ -7,11 +7,17 @@ from time import sleep
 # creates a folder user the user_id
 id = 5      #this is the user_id to different the user files in the media root
 img_name = "captain.jpg"
+
+# creates the output folders
+if os.path.isdir("output"):
+    pass
+else:
+    os.mkdir("output")
 folder_path = f"./output/user{id}"  #a path created using the user_id which is unique
 
 # makes a folder
 if os.path.isdir(folder_path):
-    print("it's created already")
+    pass
 else:
     os.mkdir(folder_path)
 
