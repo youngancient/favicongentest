@@ -1,0 +1,1 @@
+Note I edited this.. All you need is to run "pip install favicons" on the CMD
